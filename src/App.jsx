@@ -11,7 +11,11 @@ function App() {
     getData();
   }, []);
 
-  return <></>;
+  return (
+    <>
+      <div className="App"></div>
+    </>
+  );
 }
 
 export default App;
